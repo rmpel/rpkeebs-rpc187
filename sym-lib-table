@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "YAAJ_BlackPill")(type "Legacy")(uri "/Users/rmpel/Development/_HOBBY/KeyboardProjects/KiCAD/Kicad-STM32/Symbols/YAAJ_BlackPill.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "YAAJ_BlackPill_Part_Like")(type "Legacy")(uri "/Users/rmpel/Development/_HOBBY/KeyboardProjects/KiCAD/Kicad-STM32/Symbols/YAAJ_BlackPill_Part_Like.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "YAAJ_BlackPill_Part_Like_SWD_Breakout")(type "Legacy")(uri "/Users/rmpel/Development/_HOBBY/KeyboardProjects/KiCAD/Kicad-STM32/Symbols/YAAJ_BlackPill_Part_Like_SWD_Breakout.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "YAAJ_BlackPill_SWD_Breakout")(type "Legacy")(uri "/Users/rmpel/Development/_HOBBY/KeyboardProjects/KiCAD/Kicad-STM32/Symbols/YAAJ_BlackPill_SWD_Breakout.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "STM32F411CEU6")(type "KiCad")(uri "/Users/rmpel/Development/_HOBBY/KeyboardProjects/KiCAD/STM32F411CEU6/STM32F411CEU6.kicad_sym")(options "")(descr "")(disabled)(hidden))
+  (lib (name "kicad-keyboard-parts")(type "Legacy")(uri "/Users/rmpel/Development/_HOBBY/KeyboardProjects/KiCAD/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name "YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout")(type "Legacy")(uri "/Users/rmpel/Development/_HOBBY/KeyboardProjects/KiCAD/Kicad-STM32/Symbols/YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout.lib")(options "")(descr ""))
+  (lib (name "YAAJ_WeAct_BlackPill_Part_Like")(type "Legacy")(uri "/Users/rmpel/Development/_HOBBY/KeyboardProjects/KiCAD/Kicad-STM32/Symbols/YAAJ_WeAct_BlackPill_Part_Like.lib")(options "")(descr ""))
+  (lib (name "marbastlib-mx")(type "KiCad")(uri "/Users/rmpel/Development/_HOBBY/KeyboardProjects/KiCAD/marbastlib/marbastlib-mx.kicad_sym")(options "")(descr ""))
+)

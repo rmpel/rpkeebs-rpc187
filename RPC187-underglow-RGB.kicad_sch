@@ -1,0 +1,4129 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "524e21f4-0ae3-42b4-b687-b5db6b25193c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "kicad-keyboard-parts:SK6812MINI-E"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "kicad-keyboard-parts:MX_SK6812MINI-E"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Reverse-mount RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 243.84 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07d21519-436a-44fe-8753-4d978f5cb207")
+	)
+	(junction
+		(at 21.59 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e540447-2422-4c95-9624-073dcc373037")
+	)
+	(junction
+		(at 180.34 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f6c981e-fde6-4028-b557-47a66b3e808d")
+	)
+	(junction
+		(at 212.09 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2307143e-7ccd-46de-92bd-2731b34b1f1e")
+	)
+	(junction
+		(at 212.09 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23b53dae-b4ef-4411-a070-8549847ce6b9")
+	)
+	(junction
+		(at 212.09 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aacbcb8-86f5-4b2b-9da2-103aa29dd143")
+	)
+	(junction
+		(at 85.09 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2be31354-d894-4bb2-85ab-6f3b2cfd7276")
+	)
+	(junction
+		(at 180.34 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ef8864f-6a3d-4900-874c-25e818345850")
+	)
+	(junction
+		(at 36.83 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "327d98df-c6a5-4b37-9664-09135f988cf1")
+	)
+	(junction
+		(at 53.34 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a6ca35b-4192-4ed7-90ec-813c642a5adc")
+	)
+	(junction
+		(at 53.34 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bf8037a-5b7c-4bd2-a09e-f65165d8d677")
+	)
+	(junction
+		(at 148.59 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cae68c6-4f16-4cd0-9439-00d5fbec8625")
+	)
+	(junction
+		(at 148.59 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58cb062c-6553-4060-ac4f-2b9579a383cb")
+	)
+	(junction
+		(at 148.59 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64416dc5-b8f4-4878-91dd-cc50189c66fd")
+	)
+	(junction
+		(at 116.84 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64f30c32-d93a-47c5-a521-eba7e3b2c52c")
+	)
+	(junction
+		(at 116.84 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c81a637-e40d-4a0b-95f3-37a9081b7e13")
+	)
+	(junction
+		(at 180.34 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "729782fe-6219-4d6c-896c-f12dd9a87533")
+	)
+	(junction
+		(at 243.84 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "793b6aea-d33f-4eb5-90e1-b74bbc41cd7b")
+	)
+	(junction
+		(at 85.09 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7974dc15-cbc9-4829-93b1-1dd359b5ab77")
+	)
+	(junction
+		(at 243.84 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85eca9f0-f9f7-4f97-bc15-00acee11e9fe")
+	)
+	(junction
+		(at 85.09 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eff1bf4-8cc0-4b7c-b0ce-3cd819eb6a98")
+	)
+	(junction
+		(at 116.84 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9280ce98-850d-46df-bded-c3f5b078fc8e")
+	)
+	(junction
+		(at 116.84 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97df680e-59f3-4724-a22b-99ebdf5fe766")
+	)
+	(junction
+		(at 148.59 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a76d01f-0402-440a-aa78-cf53ea9cb0de")
+	)
+	(junction
+		(at 243.84 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6e16ad9-5f1d-4cc1-967d-4879657810e9")
+	)
+	(junction
+		(at 53.34 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1406564-1d18-4b9f-bfaa-f8d1584b570b")
+	)
+	(junction
+		(at 53.34 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccb22da2-cc5f-4f3a-93fc-6d752d6ab005")
+	)
+	(junction
+		(at 212.09 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db7a289e-4780-4591-84c3-4fae8df5b732")
+	)
+	(junction
+		(at 21.59 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e27e98d8-143f-40a0-b3ef-4c50d8fbc45e")
+	)
+	(junction
+		(at 180.34 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2a58606-e9bd-4583-81df-2074834da8dd")
+	)
+	(junction
+		(at 50.8 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10dd303-18b8-4bb6-a372-c380eafe7c83")
+	)
+	(junction
+		(at 85.09 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f19cda31-9c71-4061-97da-546197078c9c")
+	)
+	(wire
+		(pts
+			(xy 266.7 71.12) (xy 266.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03334df7-7577-4112-b780-7a5d6f703203")
+	)
+	(wire
+		(pts
+			(xy 156.21 26.67) (xy 156.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069f85a9-af65-48f7-bc4c-f0d34ec710ce")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 109.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f03a65-10ac-4d6f-817e-22aacab42c0c")
+	)
+	(wire
+		(pts
+			(xy 13.97 102.87) (xy 13.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f193965-1c3f-4840-af98-87db33ab4955")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ce54ca-135a-4978-8f27-64f5ae978ddb")
+	)
+	(wire
+		(pts
+			(xy 281.94 133.35) (xy 266.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bdf9ae-8245-4169-b0d3-9299cec4bbdc")
+	)
+	(wire
+		(pts
+			(xy 60.96 148.59) (xy 77.47 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152f3a43-1684-4936-9982-3e2508e8495d")
+	)
+	(wire
+		(pts
+			(xy 29.21 41.91) (xy 13.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1758e173-4b3e-46c6-89bc-72531ef3283f")
+	)
+	(wire
+		(pts
+			(xy 212.09 19.05) (xy 243.84 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8de5e4-a7c8-4e8e-aa41-5235c1d12855")
+	)
+	(wire
+		(pts
+			(xy 148.59 156.21) (xy 180.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aaf6ded-8429-4ce7-a31e-a7676b4644c6")
+	)
+	(wire
+		(pts
+			(xy 29.21 57.15) (xy 29.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203938b4-0ff8-4bbf-aac3-36449b955430")
+	)
+	(wire
+		(pts
+			(xy 212.09 34.29) (xy 243.84 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ba2e14-cae4-403d-8bc6-603e7eb562b0")
+	)
+	(wire
+		(pts
+			(xy 85.09 19.05) (xy 116.84 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25416502-5a8f-46ce-90bb-047971cd9da9")
+	)
+	(wire
+		(pts
+			(xy 50.8 19.05) (xy 53.34 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8ec6dc-e940-4a5b-95f6-1958f4a1420b")
+	)
+	(wire
+		(pts
+			(xy 156.21 148.59) (xy 172.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2a4ca1-a1a5-472d-9879-deae30afe8bd")
+	)
+	(wire
+		(pts
+			(xy 53.34 140.97) (xy 85.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3183477f-fae7-4734-a23a-36bc9d49d9ea")
+	)
+	(wire
+		(pts
+			(xy 212.09 156.21) (xy 243.84 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7b0e5b-e7c6-4504-8070-d00fdad22203")
+	)
+	(wire
+		(pts
+			(xy 124.46 36.83) (xy 77.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4cc126-a1d2-4d0e-b4e6-ec9f03858d20")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 45.72 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404d5dca-26f4-4624-9d46-1a6835afc9a0")
+	)
+	(wire
+		(pts
+			(xy 92.71 148.59) (xy 109.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475820d0-0969-45c7-b4e4-8d8bef2af892")
+	)
+	(wire
+		(pts
+			(xy 29.21 102.87) (xy 13.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48db3041-fa9e-4f03-9a0d-42edc21acb23")
+	)
+	(wire
+		(pts
+			(xy 92.71 26.67) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491a12c5-d1b9-41fc-8b95-501f5fb2558a")
+	)
+	(wire
+		(pts
+			(xy 180.34 34.29) (xy 212.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fc881f-6fe7-474f-b6cc-29b162c10385")
+	)
+	(wire
+		(pts
+			(xy 180.34 140.97) (xy 212.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b163b28-dd14-48e2-a02b-a04dd2cee61b")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 85.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b938d3c-5ec1-4f90-9d7e-a07c43235dc0")
+	)
+	(wire
+		(pts
+			(xy 29.21 148.59) (xy 45.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f11ffd7-258a-45bc-9194-8494a223189e")
+	)
+	(wire
+		(pts
+			(xy 116.84 156.21) (xy 148.59 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514104c0-2351-4cd7-90c8-99ae907f5fd9")
+	)
+	(wire
+		(pts
+			(xy 266.7 110.49) (xy 274.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56adf3dd-59f0-45a5-9337-1e4ea0b11b70")
+	)
+	(wire
+		(pts
+			(xy 266.7 102.87) (xy 266.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0c22f7-3a46-42ab-95ee-f6fc275235d8")
+	)
+	(wire
+		(pts
+			(xy 124.46 148.59) (xy 140.97 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6c92a9-5c07-412c-a188-c28c098a6e40")
+	)
+	(wire
+		(pts
+			(xy 85.09 34.29) (xy 116.84 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e396c0c-07bd-44d0-95a4-e2c0a702fe3c")
+	)
+	(wire
+		(pts
+			(xy 21.59 138.43) (xy 21.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f336e42-51fb-40d9-9faf-89b4f6245804")
+	)
+	(wire
+		(pts
+			(xy 180.34 19.05) (xy 212.09 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a3c550-e40b-43aa-a846-06b9488e7544")
+	)
+	(wire
+		(pts
+			(xy 36.83 34.29) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621acf92-5f24-437d-b5f5-5ca6499b5126")
+	)
+	(wire
+		(pts
+			(xy 219.71 38.1) (xy 172.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b1a0f7-d2f6-4081-8385-e9e4b03eafd5")
+	)
+	(wire
+		(pts
+			(xy 212.09 140.97) (xy 243.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66608a57-5335-4e23-9947-6a44d872f9f4")
+	)
+	(wire
+		(pts
+			(xy 281.94 38.1) (xy 236.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67875141-7e55-453a-848c-894fa353d44b")
+	)
+	(wire
+		(pts
+			(xy 148.59 19.05) (xy 180.34 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9ed020-e6d7-4be9-bb48-e0c1d7186770")
+	)
+	(wire
+		(pts
+			(xy 219.71 26.67) (xy 219.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cbcdb0a-6b27-4cd4-a4dd-8ab4dd7ffb63")
+	)
+	(wire
+		(pts
+			(xy 13.97 72.39) (xy 13.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2d9d21-65e7-4e91-8515-7cf1b5a16c47")
+	)
+	(wire
+		(pts
+			(xy 281.94 118.11) (xy 281.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74331812-6f8c-419f-b75b-07b280a47dcc")
+	)
+	(wire
+		(pts
+			(xy 148.59 140.97) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a7dd14-87b0-407d-a84c-a3776bf2d9c6")
+	)
+	(wire
+		(pts
+			(xy 29.21 72.39) (xy 13.97 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b24378-13b3-4753-9da0-2030cf5789b9")
+	)
+	(wire
+		(pts
+			(xy 13.97 15.24) (xy 13.97 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777622bb-fa6e-48a6-b07c-d8636a38c5b2")
+	)
+	(wire
+		(pts
+			(xy 172.72 38.1) (xy 172.72 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796b66fa-6c90-4a6a-8721-64f24abeb28e")
+	)
+	(wire
+		(pts
+			(xy 124.46 26.67) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aceaada-232e-41c1-a166-b745b1fba40e")
+	)
+	(wire
+		(pts
+			(xy 281.94 26.67) (xy 281.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc7e491-051d-46ef-9987-3be26369596d")
+	)
+	(wire
+		(pts
+			(xy 251.46 26.67) (xy 251.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffced76-e7a7-4d51-9ccb-00e9cfecc9cb")
+	)
+	(wire
+		(pts
+			(xy 266.7 40.64) (xy 266.7 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a13c7a-03d8-4119-a47f-471d8de05380")
+	)
+	(wire
+		(pts
+			(xy 243.84 19.05) (xy 274.32 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ed94f2-2251-4a71-9851-a473714d3c1e")
+	)
+	(wire
+		(pts
+			(xy 243.84 34.29) (xy 274.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e63dfd-9651-434a-822a-93b56330f713")
+	)
+	(wire
+		(pts
+			(xy 266.7 133.35) (xy 266.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92250815-2a90-4bb3-8c71-0794bb543c4b")
+	)
+	(wire
+		(pts
+			(xy 53.34 19.05) (xy 85.09 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9921c98d-f7b9-451d-ac7f-c80caac38f66")
+	)
+	(wire
+		(pts
+			(xy 29.21 118.11) (xy 29.21 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7aa9d7-2833-472f-9c6b-3673fda02a4c")
+	)
+	(wire
+		(pts
+			(xy 60.96 26.67) (xy 60.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3b6877-538f-4e70-8ae2-74381089d372")
+	)
+	(wire
+		(pts
+			(xy 281.94 87.63) (xy 281.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a100d01d-fce9-4f31-8da3-8f502f0c1794")
+	)
+	(wire
+		(pts
+			(xy 251.46 36.83) (xy 204.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b8b573-a8cf-40ed-9dae-9048a295c5db")
+	)
+	(wire
+		(pts
+			(xy 243.84 140.97) (xy 274.32 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52ac50a-0777-475d-b51c-581f0b20cc4e")
+	)
+	(wire
+		(pts
+			(xy 21.59 140.97) (xy 53.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5aa5c2c-f236-421a-9755-73c0509e6428")
+	)
+	(wire
+		(pts
+			(xy 21.59 34.29) (xy 36.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2bc5f1-8efd-4fc8-8e6b-590d7d31fb67")
+	)
+	(wire
+		(pts
+			(xy 13.97 41.91) (xy 13.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba17f00-130d-49c3-8972-27152150377a")
+	)
+	(wire
+		(pts
+			(xy 187.96 26.67) (xy 187.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b007605a-2ea8-4688-b511-1de445d24a5b")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 77.47 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0778863-a72f-47e1-9d92-0e3ffcf49cf3")
+	)
+	(wire
+		(pts
+			(xy 243.84 156.21) (xy 274.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ca2742-239f-42a0-bc8c-7dfcdf1b1bd0")
+	)
+	(wire
+		(pts
+			(xy 29.21 87.63) (xy 29.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a934da-e284-4829-a014-36af0365e012")
+	)
+	(wire
+		(pts
+			(xy 13.97 133.35) (xy 13.97 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b369f8bc-5c6c-418b-92ac-099f879b355a")
+	)
+	(wire
+		(pts
+			(xy 148.59 34.29) (xy 180.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6734f11-0f35-474f-b648-cd634b1e75fd")
+	)
+	(wire
+		(pts
+			(xy 85.09 140.97) (xy 116.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf84a81a-888b-4007-875d-553758628a07")
+	)
+	(wire
+		(pts
+			(xy 116.84 19.05) (xy 148.59 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10c8d64-bdd9-4785-9204-8ee17ee2511a")
+	)
+	(wire
+		(pts
+			(xy 85.09 156.21) (xy 116.84 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a15db2-0f28-43ae-a3c8-861b54e17808")
+	)
+	(wire
+		(pts
+			(xy 251.46 148.59) (xy 266.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43b97d6-2eaa-4576-a1b9-55b8aa9aba44")
+	)
+	(wire
+		(pts
+			(xy 281.94 57.15) (xy 281.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55bfaac-61e6-41c2-9c8e-9e567a18d38e")
+	)
+	(wire
+		(pts
+			(xy 281.94 71.12) (xy 266.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5658db2-3d08-481b-9754-21fdaa457cad")
+	)
+	(wire
+		(pts
+			(xy 21.59 156.21) (xy 53.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bd17af-5a48-4e5c-ad21-8aa1f06be5b2")
+	)
+	(wire
+		(pts
+			(xy 29.21 133.35) (xy 13.97 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4938b3-83c1-4fa0-99e7-6b745ed4242d")
+	)
+	(wire
+		(pts
+			(xy 116.84 140.97) (xy 148.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24456e7-f9b3-4caf-a260-2baccb2e2354")
+	)
+	(wire
+		(pts
+			(xy 53.34 156.21) (xy 85.09 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38432d5-18d2-48c4-89d0-4ce5c790d20d")
+	)
+	(wire
+		(pts
+			(xy 187.96 36.83) (xy 140.97 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50d427b-fa51-41f7-8935-f9f3f1e0ec91")
+	)
+	(wire
+		(pts
+			(xy 266.7 49.53) (xy 274.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67b90c1-0db6-4e44-87c2-d70b9dee2192")
+	)
+	(wire
+		(pts
+			(xy 236.22 38.1) (xy 236.22 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79bdfae-dda5-45e4-95d4-ebb7820b41cd")
+	)
+	(wire
+		(pts
+			(xy 116.84 34.29) (xy 148.59 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8381dfb-3993-4e7d-b2fe-d1c1f03f2fbd")
+	)
+	(wire
+		(pts
+			(xy 109.22 38.1) (xy 109.22 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94dc56c-8a36-49b4-9908-764e29d705ef")
+	)
+	(wire
+		(pts
+			(xy 281.94 148.59) (xy 281.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2dc776-8139-4140-bca4-1afc55ff4c36")
+	)
+	(wire
+		(pts
+			(xy 50.8 15.24) (xy 50.8 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a9dd73-544f-4070-9bb2-c1062b67508b")
+	)
+	(wire
+		(pts
+			(xy 29.21 26.67) (xy 29.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee04423f-ccd5-4070-baa1-8d7815dea156")
+	)
+	(wire
+		(pts
+			(xy 204.47 36.83) (xy 204.47 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d254d0-e02c-4102-ab03-aafa165bfb71")
+	)
+	(wire
+		(pts
+			(xy 266.7 80.01) (xy 274.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f2be4c-c46a-490a-a7d7-60d37659106c")
+	)
+	(wire
+		(pts
+			(xy 219.71 148.59) (xy 236.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49a1e4c-9101-4eae-8b95-020688691f3a")
+	)
+	(wire
+		(pts
+			(xy 281.94 40.64) (xy 266.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49f3e3c-ccaa-4d54-b7de-15338f4dbb1f")
+	)
+	(wire
+		(pts
+			(xy 180.34 156.21) (xy 212.09 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c36015-d77e-4f61-b300-012e4fac3fb4")
+	)
+	(wire
+		(pts
+			(xy 21.59 19.05) (xy 50.8 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa92f0b4-96e0-4ff1-b4a7-78c78c5adf4b")
+	)
+	(wire
+		(pts
+			(xy 140.97 36.83) (xy 140.97 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb4f53f-f599-45b9-a683-0a63049d0232")
+	)
+	(wire
+		(pts
+			(xy 281.94 102.87) (xy 266.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4761ac-d9a0-4088-8ebb-c798e78bf3c5")
+	)
+	(wire
+		(pts
+			(xy 187.96 148.59) (xy 204.47 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffda2cbd-f5d6-48d7-808b-fb7eefba4021")
+	)
+	(global_label "KEY-TO-UNDER-RGB"
+		(shape input)
+		(at 13.97 15.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11e99af9-03cd-455a-b43d-8069e9883c39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.6381 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED-VCC"
+		(shape input)
+		(at 21.59 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4173f2f5-8c80-4612-9699-02cac6350573")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.2233 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED-VCC"
+		(shape input)
+		(at 50.8 15.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51fbbcda-e35f-49c2-a6d6-bce4f2b7dbb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.1667 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UNDER-TO-STATUS-RGB"
+		(shape input)
+		(at 60.96 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76c7c62e-0c1e-48fc-a0a2-e141fba342c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.8938 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED-VCC"
+		(shape input)
+		(at 21.59 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c37587e-44f7-49a8-8d11-d74bac6f603c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.2233 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED-VCC"
+		(shape input)
+		(at 266.7 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a27d1a84-d27e-4ba9-8ee0-7fc4c92b9623")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0667 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED-VCC"
+		(shape input)
+		(at 21.59 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e630e441-9c81-463c-9224-d21cda7de1d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.2233 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED-VCC"
+		(shape input)
+		(at 21.59 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7d47aba-6be8-4971-9ca7-3862b4019c2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.2233 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED-VCC"
+		(shape input)
+		(at 266.7 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb0aeb0c-c064-4754-9a5e-653e6caf9d59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0667 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED-VCC"
+		(shape input)
+		(at 266.7 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fff9abc6-8c93-4e76-8609-acc64de1be03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0667 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 212.09 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0065383f-bca7-41b3-84fa-ee3b8db44d1d")
+		(property "Reference" "LED98"
+			(at 208.788 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 213.614 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 213.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 214.63 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 212.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1c054523-7a62-464f-8002-957e1cebc0db")
+		)
+		(pin "2"
+			(uuid "f6caa7b0-bc5e-4acc-9f7b-269c02a93769")
+		)
+		(pin "1"
+			(uuid "b2eda821-420f-4efb-9d57-b8dce0132726")
+		)
+		(pin "4"
+			(uuid "9cc2a311-941e-4e67-aa1d-e76f0e4911a2")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 243.84 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f683599-c35e-4735-a107-02de122b507c")
+		(property "Reference" "LED99"
+			(at 240.538 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 245.364 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 245.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 246.38 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 243.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1f4d3b16-c45b-4481-a949-4f643be07d3d")
+		)
+		(pin "2"
+			(uuid "6a1a24db-d5b2-442e-b183-34ad85384416")
+		)
+		(pin "1"
+			(uuid "76708b6c-e789-4bd0-a1c6-5ee53d802e46")
+		)
+		(pin "4"
+			(uuid "fc10d863-6d42-454a-b76b-b8ebc08012d1")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 21.59 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12d3bd7f-84e8-4d32-87e4-b6787fef3134")
+		(property "Reference" "#PWR010"
+			(at 21.59 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 21.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 21.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61728fa2-049e-4d23-bf98-4c174233bd0e")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 85.09 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e78efd5-25ee-404c-a029-9097892bd456")
+		(property "Reference" "LED110"
+			(at 81.788 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 86.614 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 87.63 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 85.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ba9ba27c-9b8a-4303-a25a-7d27965dfa35")
+		)
+		(pin "2"
+			(uuid "36a0a1dc-21ec-4151-8d2e-1fc6c43362d5")
+		)
+		(pin "1"
+			(uuid "46e19904-0e24-45f7-971f-303b98ed0f28")
+		)
+		(pin "4"
+			(uuid "135e8d59-ab7a-436f-bb47-f23bf90b8b5d")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 116.84 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4166bbaf-6868-47ff-b31d-a8dc62602ef0")
+		(property "Reference" "LED95"
+			(at 113.538 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 118.364 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 119.38 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7eeb9dd0-f90c-4ffc-bc77-f6f199d898e4")
+		)
+		(pin "2"
+			(uuid "9bebc527-2687-4fcf-a957-62c001ba2346")
+		)
+		(pin "1"
+			(uuid "ca1d3cf9-ff8b-42b8-a1bb-0887684a43eb")
+		)
+		(pin "4"
+			(uuid "76cefc8f-ae79-4647-8555-f6c013a3c2b0")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 274.32 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4955de71-b440-4a7d-bacb-43a03ce3a70e")
+		(property "Reference" "LED103"
+			(at 271.018 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 275.844 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 275.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 276.86 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 274.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dd5b3ab6-e4e3-47c8-8406-e78a30b9d60c")
+		)
+		(pin "2"
+			(uuid "e287ebe9-affe-4b19-85f5-205bd435f25d")
+		)
+		(pin "1"
+			(uuid "05323050-0ffd-4fc6-9796-e2e98e8bffb4")
+		)
+		(pin "4"
+			(uuid "8e76bd32-e663-43bf-bb9f-c3ac44a164cb")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 274.32 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55aa4ac8-a610-4590-a324-f0b0f1c96540")
+		(property "Reference" "#PWR012"
+			(at 274.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 274.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 274.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "231fad7a-d101-456e-b350-e8e7e3089e73")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 180.34 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5954a456-d7a6-4ceb-b62b-015c71e6963a")
+		(property "Reference" "LED97"
+			(at 177.038 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 181.864 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 181.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 182.88 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 180.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8f5cca40-c25e-4826-a6d6-8b18237249a1")
+		)
+		(pin "2"
+			(uuid "9fc3ad87-7029-46fa-9fe7-7dc9c3b07a23")
+		)
+		(pin "1"
+			(uuid "a1c47446-d1db-4a46-81a2-29be237aa45b")
+		)
+		(pin "4"
+			(uuid "58610af2-0594-463a-91f3-a2b931b15b04")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 21.59 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a64972e-239a-4a57-93e2-ca3a6a625cfe")
+		(property "Reference" "#PWR07"
+			(at 21.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 21.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 21.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12b5c2e4-7066-4380-b5df-3e63dce99f71")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 21.59 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68427de2-aed8-41fd-a460-0311f840b9f6")
+		(property "Reference" "LED91"
+			(at 18.288 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 23.114 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 22.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 24.13 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 21.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ecd87352-67a5-49f8-a9c2-6e2fdd0b3fb6")
+		)
+		(pin "2"
+			(uuid "51c0eadb-4427-431f-bb01-f611e429e7d1")
+		)
+		(pin "1"
+			(uuid "6a077eaa-ac25-4822-aaca-b0754d919fa7")
+		)
+		(pin "4"
+			(uuid "bfb09ca9-3720-4a86-a0d0-2268b686c1ea")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 36.83 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f2978d6-799d-4a54-ad1a-a0410fcd2b59")
+		(property "Reference" "#PWR088"
+			(at 36.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 36.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba2e8f88-01fc-4a43-a497-bbb89875cacd")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 53.34 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73794ef8-3c9c-4abc-9af2-99bd681a6bfc")
+		(property "Reference" "LED93"
+			(at 50.038 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 54.864 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 54.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 55.88 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 53.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d3a82d26-81e1-4bc1-b524-4278bd848764")
+		)
+		(pin "2"
+			(uuid "4016dea3-e445-4e77-9ba1-d82e4a22fb82")
+		)
+		(pin "1"
+			(uuid "882ce16c-302b-4758-a2ab-b4a442b336d5")
+		)
+		(pin "4"
+			(uuid "87d9ff83-3ea2-49a3-a261-b9c4e9c105b5")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 180.34 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a9d17a0-87c9-4de0-8100-0bf2a6049f57")
+		(property "Reference" "LED107"
+			(at 177.038 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 181.864 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 181.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 182.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "910801d7-a66d-4e1d-9a73-3ca2a8fad691")
+		)
+		(pin "2"
+			(uuid "310c0aac-27ce-4c80-964b-d17b84daba45")
+		)
+		(pin "1"
+			(uuid "3e6f4349-d54f-4605-bdee-1a8cdcc40021")
+		)
+		(pin "4"
+			(uuid "2bc026bb-773f-4fc0-980e-d287855c5fa1")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 274.32 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "814a2196-a38d-4ab1-b8fb-e3a0366b2210")
+		(property "Reference" "LED104"
+			(at 271.018 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 275.844 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 275.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 276.86 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 274.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e300f6da-cd67-4ffa-84d7-3302b56519f5")
+		)
+		(pin "2"
+			(uuid "4cf63ae5-2614-4bec-a268-8e655ed21d69")
+		)
+		(pin "1"
+			(uuid "3ec631b9-39ee-4815-937d-d5b07bf012f8")
+		)
+		(pin "4"
+			(uuid "bd532ef2-83f7-4822-bbe3-1b118b5bd068")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 21.59 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d40d3f1-30de-4efa-bee3-3384017dd641")
+		(property "Reference" "#PWR09"
+			(at 21.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 21.59 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 21.59 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b469ddc3-d4ce-4e2b-ba2c-2c9b2423f7c1")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 21.59 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9809db4a-0b2e-42e5-a14c-06f577880e80")
+		(property "Reference" "LED90"
+			(at 18.288 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 23.114 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 22.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 24.13 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 21.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dbf50f38-6242-42ea-86e4-fa3727898264")
+		)
+		(pin "2"
+			(uuid "2e598a73-4ec0-4c75-aeb4-06d33acc4956")
+		)
+		(pin "1"
+			(uuid "632fde10-e576-4a5d-99c5-d754885abe47")
+		)
+		(pin "4"
+			(uuid "cb671f80-d4c9-4545-bcb3-bb75888e4a07")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 274.32 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b62285a-765e-4127-b766-7be1fa8f858b")
+		(property "Reference" "#PWR011"
+			(at 274.32 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 274.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 274.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb7dae65-7c65-40af-932e-aea1b3aed1b3")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 274.32 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a314a776-0fb3-4cc6-8314-465a3b132f69")
+		(property "Reference" "LED102"
+			(at 271.018 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 275.844 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 275.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 276.86 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 274.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d5e6423e-9eb7-4c59-ac33-83d75c2bee1d")
+		)
+		(pin "2"
+			(uuid "ff27fa5d-50d7-4fa4-ba3e-e655b94eb303")
+		)
+		(pin "1"
+			(uuid "0b797141-84bf-4892-9978-9163fed84a56")
+		)
+		(pin "4"
+			(uuid "733be40d-27ef-49a1-a90c-d19fa24cac57")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 274.32 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1cac109-6952-475d-859a-2752a1ae0272")
+		(property "Reference" "LED100"
+			(at 271.018 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 275.844 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 275.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 276.86 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 274.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "10ca3d2d-890a-4911-bfb9-aad53e5fefcb")
+		)
+		(pin "2"
+			(uuid "090ebb11-72ac-4cd5-9a39-0601ca171315")
+		)
+		(pin "1"
+			(uuid "d096f9b5-9324-4eda-8f4c-2cdb3487651c")
+		)
+		(pin "4"
+			(uuid "006951a3-d189-4198-8ffa-09d34677a8c7")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 21.59 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b76c2986-b319-49fe-9879-6229e708e6c4")
+		(property "Reference" "LED88"
+			(at 30.48 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 23.114 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 22.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 24.13 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 21.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bc8e7edb-6c24-47a9-898a-3881665c0aec")
+		)
+		(pin "2"
+			(uuid "33fe4bce-0383-437c-a3ed-a71c30dcbdac")
+		)
+		(pin "1"
+			(uuid "8ea991db-a1ab-45e5-8e0c-de23096a6879")
+		)
+		(pin "4"
+			(uuid "342379f7-b49b-465c-ba47-050b5d03a63a")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 116.84 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf5ba38d-358a-408b-babe-f2aaaf5e8d6b")
+		(property "Reference" "LED109"
+			(at 113.538 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 118.364 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 119.38 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 116.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "316f4ba0-e736-4bee-9c99-46f456186f04")
+		)
+		(pin "2"
+			(uuid "bb516e06-bee0-40fe-b6b7-f89398554bbe")
+		)
+		(pin "1"
+			(uuid "69de9da8-2619-4a3b-85c5-95300c770db3")
+		)
+		(pin "4"
+			(uuid "cefcf749-8e1a-404d-9366-0112bfe48369")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 53.34 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb5e2035-4cfa-4acd-a2ce-069f6b44d59e")
+		(property "Reference" "LED111"
+			(at 50.038 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 54.864 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 54.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 55.88 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2157a0aa-5bc1-4519-bf8e-80c73a4ca625")
+		)
+		(pin "2"
+			(uuid "91ccf935-4096-4a58-ab5c-97a6947bbb16")
+		)
+		(pin "1"
+			(uuid "7a13f79f-768a-4041-9958-65da5eb7c673")
+		)
+		(pin "4"
+			(uuid "87e21d58-e9df-46e8-9640-f10b7415230d")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 243.84 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc69139d-2be3-4b90-b706-47fc2ef43077")
+		(property "Reference" "LED105"
+			(at 240.538 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 245.364 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 245.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 246.38 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 243.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fa285290-2cfd-472c-bd55-5e6888928efc")
+		)
+		(pin "2"
+			(uuid "9676e830-8eb6-4b45-ac41-b08018e85aa0")
+		)
+		(pin "1"
+			(uuid "8a0c5302-2ab4-483b-a83d-614b27a051f3")
+		)
+		(pin "4"
+			(uuid "2a7f4442-8c6c-4160-90a7-96e8bfd2735f")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 148.59 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d034b6b0-ba85-41ec-a337-b1f19334a11a")
+		(property "Reference" "LED108"
+			(at 145.288 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 150.114 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 149.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 151.13 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 148.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "16bb950a-0988-427e-bef6-40265b7086d0")
+		)
+		(pin "2"
+			(uuid "abc8fe82-c353-44ce-8014-143b6addf95a")
+		)
+		(pin "1"
+			(uuid "0f9146ff-0df3-4510-b591-0a9173030197")
+		)
+		(pin "4"
+			(uuid "d67b5e3c-c2a7-473b-ac37-34d79250281b")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 274.32 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d08da9ad-2328-4085-adf2-c9a616ddb725")
+		(property "Reference" "#PWR013"
+			(at 274.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 274.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 274.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67e23b30-07a8-4cbf-9408-259ce944fb8d")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 148.59 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de8f3168-a8a4-40cd-979b-a82af608f111")
+		(property "Reference" "LED96"
+			(at 145.288 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 150.114 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 151.13 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 148.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1c292f72-ee81-4d39-b8e5-5f262d9b2023")
+		)
+		(pin "2"
+			(uuid "5d282e44-afd5-4e8e-936b-0d47bc8344c3")
+		)
+		(pin "1"
+			(uuid "9878eb91-af80-40d3-aab0-bc55102ff6f6")
+		)
+		(pin "4"
+			(uuid "7e36e6d2-3cf4-4a8c-b04f-446441dc00fa")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 212.09 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfa693d9-74b3-4885-ac4b-8c16b72a87dd")
+		(property "Reference" "LED106"
+			(at 208.788 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 213.614 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 214.63 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 212.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "745274d8-4e96-4e11-9913-59ec000e372f")
+		)
+		(pin "2"
+			(uuid "2a247be0-d47b-45cc-a539-aa4a954963c6")
+		)
+		(pin "1"
+			(uuid "f4c32637-a419-42b1-93e4-aebaa36b2361")
+		)
+		(pin "4"
+			(uuid "d0a63650-4fcd-49c6-9764-ffcdf73dbe21")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 21.59 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f062e14b-9e6e-4d52-b30d-68f8df7645ad")
+		(property "Reference" "LED92"
+			(at 18.288 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 23.114 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 22.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 24.13 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 21.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1f49e73e-b02f-424e-9db4-6eef216884b2")
+		)
+		(pin "2"
+			(uuid "256664ee-46aa-4f43-ae6f-0208dd926061")
+		)
+		(pin "1"
+			(uuid "f06cf1bb-8d02-4b73-84c3-c95bec68bf11")
+		)
+		(pin "4"
+			(uuid "abe89aee-cd7c-4a29-b945-c175ab4135ab")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 21.59 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4c00c1f-f9b0-47f5-b4d3-78951ecc79a6")
+		(property "Reference" "#PWR08"
+			(at 21.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 21.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 21.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14dcfb5d-5d7a-428f-ac79-cccacea8f104")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 21.59 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f784e02e-4ff9-48e0-84a8-09f0ca14ec88")
+		(property "Reference" "LED89"
+			(at 18.288 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 23.114 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 22.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 24.13 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 21.59 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fb75971d-6f9a-4471-b1e7-100d34e133f9")
+		)
+		(pin "2"
+			(uuid "26b815c1-d2b6-4a6b-94f4-e0681e9c3be4")
+		)
+		(pin "1"
+			(uuid "5d7fbd32-1617-4765-9127-4047bc2213e7")
+		)
+		(pin "4"
+			(uuid "448f487a-b3fa-4e01-91ad-94806a05329b")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 274.32 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa56b3df-6faa-4834-87c9-2cad3c41bdd1")
+		(property "Reference" "LED101"
+			(at 271.018 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 275.844 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 275.59 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 276.86 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 274.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c979afac-28ca-48ad-b259-73a31bc44332")
+		)
+		(pin "2"
+			(uuid "63fc3c03-bf06-4f13-8124-8fed4890cee2")
+		)
+		(pin "1"
+			(uuid "b796d32b-bed1-47ea-96f6-53b156033581")
+		)
+		(pin "4"
+			(uuid "6058ef44-e729-43bf-b380-b685ca377904")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 85.09 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe0e101f-5c8d-44f9-854d-4fa55c91d67b")
+		(property "Reference" "LED94"
+			(at 81.788 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1209 WS2812B"
+			(at 86.614 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RPC187-Custom:SK6812_1209_Custom"
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.aliexpress.com/item/1005008384030959.html"
+			(at 87.63 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD flat mount RGB LED with integrated controller"
+			(at 85.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8b5fdb92-0f4a-4012-b0e2-808face97db1")
+		)
+		(pin "2"
+			(uuid "402bd041-f288-418a-8f43-a2351dbae1af")
+		)
+		(pin "1"
+			(uuid "6b1c664b-cfbc-4a4c-a370-3bde937b32dc")
+		)
+		(pin "4"
+			(uuid "c9b6aae1-7a29-46d2-b321-0c26cc8d8586")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d/0894c38b-085a-41f7-a47a-efce18a8a1ef"
+					(reference "LED94")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
