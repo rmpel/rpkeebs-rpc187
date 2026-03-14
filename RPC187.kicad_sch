@@ -6548,6 +6548,28 @@
 			)
 		)
 	)
+	(global_label "LED-VCC"
+		(shape input)
+		(at 229.87 87.63 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bba923d2-7d6c-4760-8c4c-269f6c5a741f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 99.2633 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW1"
 		(shape input)
 		(at 146.05 64.77 0)
@@ -6611,6 +6633,72 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 229.87 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "198231e1-a60e-476c-9a38-b088db3ccc87")
+		(property "Reference" "#PWR014"
+			(at 229.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 229.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bed5da2b-2d85-4078-aa7a-de7ff8e050c7")
+		)
+		(instances
+			(project "RPC187"
+				(path "/95a398a3-530a-498f-83e6-54659633b68d"
+					(reference "#PWR014")
+					(unit 1)
+				)
 			)
 		)
 	)
